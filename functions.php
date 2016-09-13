@@ -34,8 +34,8 @@ while ($row = mysqli_fetch_assoc($result)) {$mac = str_replace(":","",$row['maca
 mysqli_free_result($result);
 mysqli_close($db_link);
 
-$clients['a0369f51a7dc'] = array("number"=>'74996371497',"date"=>time(),"ip"=>'10.0.0.1');
-$clients['a0369f51a7dd'] = array("number"=>'74996371497',"date"=>time(),"ip"=>'10.0.0.1');
+$clients['a0369f51a7dc'] = array("number"=>'70000000000',"date"=>time(),"ip"=>'10.0.0.1');
+$clients['a0369f51a7dd'] = array("number"=>'70000000000',"date"=>time(),"ip"=>'10.0.0.1');
 
 return $clients;
 }
